@@ -1,0 +1,11 @@
+
+.pagina div.cabecera{ background-color: #752993; color: #fff }
+.pagina div.contenido{ color: #00BD9E }
+.pagina div.pie{ background-color: #000; color: #fff }
+
+
+.btn-alert{font-size: 28px; color:#00BD9E  }
+.centrar-contenido{	text-align: center;}
+
+.apiActivada{ border: 1px solid #008F09; border-radius: 5px; padding: 10px 0px; font-weight: lighter; background-color: #2CDE37; color: #fff; }
+.apiDesactivada{border: 1px solid #940000; border-radius: 5px; padding: 10px 0px; font-weight: lighter; background-color: #D82525; color: #fff; }

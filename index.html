@@ -1,0 +1,96 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+      <!--Import jquery.mobile-1.4.5.min.css-->
+      <link rel="stylesheet" href="./css/jquery.mobile-1.4.5.min.css" />
+      <link rel="stylesheet" href="./css/centinela.css" />
+      <link rel="stylesheet" href="./css/icon.css" />
+      
+    </head>
+
+    <body>
+
+    <div data-role="page" id="pageLoader" class="pagina">
+      <div role="main" class="ui-content contenido">
+
+        <div class="centrar-contenido">
+
+            Cargando
+        
+        </div>
+      </div>
+      <div data-role="footer" data-position="fixed" class="pie">
+   
+      </div>
+    </div>
+
+
+    <div data-role="page" id="inicio" class="pagina">
+      <div data-role="header" data-position="fixed" class="cabecera"><h1>Centinela</h1></div>
+      <div role="main" class="ui-content contenido">
+        <spam id="nameUser">ss</spam>
+        <hr>
+        <div class="centrar-contenido">
+
+          <button id="btnAlertar"  class="ui-btn ui-btn-inline">
+          <img src="" width="100" height="100"><br>
+            <span class="btn-alert">Alertar</span>
+          </button>
+
+          <div id="panelRastreo" class="">
+            <span id="rastreo"></span>
+          </div>
+
+            <h4>Posicion Actual</h4>
+            <span>Latitud: <span id="latitud"></span> </span>
+            <span>Longitud: <span id="longitud"></span> </span>
+
+
+        </div>
+      </div>
+      <div data-role="footer" data-position="fixed" class="pie">
+        <h4>2019</h4>
+      </div>
+    </div>
+
+
+    <div data-role="page" id="registro" class="pagina">
+      <div data-role="header" data-position="fixed" class="cabecera"><h1>Centinela</h1></div>
+      <div role="main" class="ui-content contenido">
+        <div class="centrar-contenido">
+          <h1>Registro</h1>
+
+          <form id="formRegistro">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingresar Nombre" required="">
+            <label for="telefono">Telefono:</label>
+            <input type="number" name="telefono" pattern="[0-9]*" id="telefono" placeholder="Ingresar Telefono" required="">
+            <label for="correo">Corre Electronico:</label>
+            <input type="email" name="correo" id="correo" placeholder="Ingresar Correo Electronico" required="">
+            <button id="registrar">Registrarme</button>
+
+          </form>
+
+
+        </div>
+
+      </div>
+      <div data-role="footer" data-position="fixed" class="pie">
+        <h4>2019</h4>
+      </div>
+    </div>
+
+
+      <!--JavaScript at end of body for optimized loading-->
+    <script src="./js/jquery-1.11.1.min.js"></script>
+    <script src="./js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="./js/init.js"></script>
+    <script src="./js/registro.js"></script>
+    <script src="./js/funciones.js"></script>
+    <script src="./js/localizacion.js"></script>
+
+    </body>
+  </html>
